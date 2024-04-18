@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <h1>A SIMPLE FORM</h1>
+    <form action = "main.py" method = "post"></form>
+       <div>
+           <label for = "uname">username:</label>
+           <input type = "text" name = "uname" id = "uname"></div><br>
+           <div>
+            <label for = "em">email:</label>
+            <input type = "email" name = "email" id = "em">
+           </div><br>
+         <fieldset> 
+           <div>
+            <legend>my form</legend>
+             <input name = "pwd" type = "password" placeholder="enter password">
+           </div><br>
+           <div>
+             <input type = "number" placeholder="enter age">
+           </div><br>
+           <div>
+            <label for = "DOB">Date of birth:</label>
+            <input type = "date" name = "dob" id = "dob">
+           </div><br>
+           <div>
+             <input type = "datetime-local" name = "" id = "">
+           </div><br>
+           <div>
+             <input type="color" name="" id="">
+           </div><br>
+           <div>
+            <label for = "url">url:</label>
+            <input type="url" name="" id="">
+           </div><br>
+            <input type="file" name="" id=""><br>
+            <input type="month" name="" id=""><br>
+            <input type="week" name="" id=""><br>
+         <p><strong>languages known</strong></p>  
+            <input type="checkbox" name="lang" id="java"><label for="java">java</label>
+            <input type="checkbox" name="lang" id="python"><label for="python">python</label>
+            <input type="checkbox" name="lang" id="html"><label for="html">html</label><br>
+         <p>select gender:</p>
+         <input type="radio" name="m" id="ma">
+         <label for="ma">male</label>
+         <input type="radio" name="f" id="fe"><label for="fe">female</label>
+         <input type="radio" name="o" id="other"><label for="others">others</label><br>
+         <select name="courses" id="course">
+            <optgroup label="IT">
+                <option value="">JAVA</option>
+                <option value="p">Python</option>
+                <option value="f">Frontend</option>
+            </optgroup>
+            <optgroup label="EEE">
+                <option value="vlsi">VLSI</option>
+                <option value="stld">STLD</option>
+            </optgroup>
+            <optgroup label="mech">
+                <option value="ucmp">UCMP</option>
+                <option value="dsp">DSP</option>
+            </optgroup>
+        </select>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <input type="search" name = "" id = "">
+          <button type="submit">submit</button> 
+    </fieldset>
+    </form>
+</body>
+</html>
